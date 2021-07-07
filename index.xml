@@ -1,0 +1,34 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Julie Hartz</title>
+        <link>https://jhupiterz.github.io/</link>
+        <description>About LoveIt Theme</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>julie.hartz13@gmail.com (Julie Hartz)</managingEditor>
+            <webMaster>julie.hartz13@gmail.com (Julie Hartz)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 05 Jul 2021 21:29:01 &#43;0200</lastBuildDate>
+            <atom:link href="https://jhupiterz.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Safe Seizure - Brain seizure prediction</title>
+    <link>https://jhupiterz.github.io/theme-documentation-basics/</link>
+    <pubDate>Mon, 05 Jul 2021 21:29:01 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>https://jhupiterz.github.io/theme-documentation-basics/</guid>
+    <description><![CDATA[<p><strong>Safe Seizure</strong>: Brain seizure prediction using machine learning</p>
+<p><em>Language:</em> Python</p>]]></description>
+</item><item>
+    <title>Olist - Brazilian e-commerce challenge</title>
+    <link>https://jhupiterz.github.io/theme-documentation-built-in-shortcodes/</link>
+    <pubDate>Mon, 05 Jul 2021 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://jhupiterz.github.io/theme-documentation-built-in-shortcodes/</guid>
+    <description><![CDATA[<p><strong>Olist challenge</strong>: healthily increase your e-commerce profits!</p>
+<p><em>Language:</em> Python</p>]]></description>
+</item><item>
+    <title>Search for extraterrestrial life - Martian biosignatures</title>
+    <link>https://jhupiterz.github.io/theme-documentation-extended-shortcodes/</link>
+    <pubDate>Mon, 15 Jun 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://jhupiterz.github.io/theme-documentation-extended-shortcodes/</guid>
+    <description><![CDATA[<p><strong>Search for extraterrestrial life</strong> - Martian biosignatures (a.k.a. biosignatures)</p>
+<p><em>Language:</em> R</p>]]></description>
+</item></channel>
+</rss>

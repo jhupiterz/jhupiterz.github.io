@@ -1,0 +1,32 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tous Posts - Julie Hartz</title>
+        <link>https://jhupiterz.github.io/fr/posts/</link>
+        <description>Tous Posts | Julie Hartz</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><managingEditor>julie.hartz13@gmail.com (Julie Hartz)</managingEditor>
+            <webMaster>julie.hartz13@gmail.com (Julie Hartz)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 05 Jul 2021 21:29:01 &#43;0200</lastBuildDate><atom:link href="https://jhupiterz.github.io/fr/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Safe Seizure - prédire les crises d&#39;épilepsie</title>
+    <link>https://jhupiterz.github.io/fr/theme-documentation-basics/</link>
+    <pubDate>Mon, 05 Jul 2021 21:29:01 &#43;0200</pubDate>
+    <author>Auteur</author>
+    <guid>https://jhupiterz.github.io/fr/theme-documentation-basics/</guid>
+    <description><![CDATA[<p><strong>Safe Seizure</strong>: machine learning pour prédire les crises d&rsquo;épilepsie</p>
+<p><em>Langage:</em> Python</p>]]></description>
+</item><item>
+    <title>Olist - e-commerce Brésilien</title>
+    <link>https://jhupiterz.github.io/fr/theme-documentation-built-in-shortcodes/</link>
+    <pubDate>Mon, 05 Jul 2021 16:29:41 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>https://jhupiterz.github.io/fr/theme-documentation-built-in-shortcodes/</guid>
+    <description><![CDATA[<p><strong>Challenge Olist</strong>: durablement accroître les profits du e-commerce!</p>
+<p><em>Langage:</em> Python</p>]]></description>
+</item><item>
+    <title>Recherche de vie extra-terrestre - traces de vie Martiennes (a.k.a. biosignatures)</title>
+    <link>https://jhupiterz.github.io/fr/theme-documentation-extended-shortcodes/</link>
+    <pubDate>Mon, 15 Jun 2020 16:29:41 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>https://jhupiterz.github.io/fr/theme-documentation-extended-shortcodes/</guid>
+    <description><![CDATA[<p><strong>Recherche de vie extra-terrestre</strong> - traces de vie Martiennes (a.k.a biosignatures)</p>
+<p><em>Langage:</em> R</p>]]></description>
+</item></channel>
+</rss>
