@@ -154,15 +154,15 @@
 <p>The map on the right panel of the page was built using [mapbox](https://www.mapbox.com/) and also allows a maximum interactivity.</p>
 <h2 id="4-predictions">2 Predictions</h2>
 <p>The Predict page allows the app user to enter a series of parameters about a new animal intake. The “predict” button will then plug-in those parameters into a trained machine-learning model to determine whether the animal will be adopted or not (see model specifications below).</p>
-<p>The model used to determine whether an animal will be adopted or not is a Gradient Boosting Classifier - an ensemble classification model. The best hyper-parameters were determined using a `RandomizedSearchCV`:</p>
-                  <li>`learning_rate=0.1`</li>
-                  <li>`max_depth=20`</li>
-                  <li>`min_samples_leaf=1`</li>
-                  <li>`min_samples_split=2`</li>
-                  <li>`n_estimators=100`</li>
-                  <li>`tol=0.0001`</li>
-                  <li>`subsample=0.5`</li>
-                  <li>`validation_fraction=0.1`</li>
+<p>The model used to determine whether an animal will be adopted or not is a Gradient Boosting Classifier - an ensemble classification model. The best hyper-parameters were determined using a <code>RandomizedSearchCV</code>:</p>
+                  <li><code>learning_rate=0.1</code></li>
+                  <li><code>max_depth=20</code></li>
+                  <li><code>min_samples_leaf=1</code></li>
+                  <li><code>min_samples_split=2</code></li>
+                  <li><code>n_estimators=100</code></li>
+                  <li><code>tol=0.0001</code></li>
+                  <li><code>subsample=0.5</code></li>
+                  <li><code>validation_fraction=0.1</code></li>
 <p>The best model has an overall accuracy of 86% (i.e. the model predicts the right outcome 86% of the time). Below is the “confusion matrix” displaying the model’s overall performance, where the label 0 is “will not be adopted” and the label 1 is “will be adopted”:</p>
 <img src="/theme-documentation-basics/aac-matrix.png" alt="confusion matrix" width="500"/>
 <p>The worst errors occur when an animal is falsely predicted to be adopted while in reality it will most likely not be adopted. This type of error is reflected in the upper right corner and represents 7.8% of all predictions.</p>
