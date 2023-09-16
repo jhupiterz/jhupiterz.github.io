@@ -21,7 +21,7 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "The Biosignature Database - Standardized data reporting for Astrobiology",
+        "headline": "Sample visualizer: correlating multi-scale complexity in astrobiological samples",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
@@ -42,7 +42,7 @@
                 }},"author": {
                 "@type": "Person",
                 "name": "Julie"
-            },"description": "The Biosignature Database - Standardized data reporting for Astrobiology"
+            },"description": "Sample visualizer: correlating multi-scale complexity in astrobiological samples"
     }
     </script></head>
     <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -115,7 +115,7 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content always-active" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">The Biosignature Database - Standardized data reporting for Astrobiology</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">Sample visualizer: correlating multi-scale complexity in astrobiological samples</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Julie</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-06-13">2022-06-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;237 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
@@ -137,26 +137,29 @@
     <li><a href="#2-solution-safe-seizure">2 Sample visualizer</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p><strong>Sample visualizer</strong>: visualizing molecular and morphological complexity in astrobiological samples</p>
+            </div><div class="content" id="content"><p><strong>Sample visualizer</strong>: correlating multi-scale complexity in astrobiological samples</p>
 <p><em>Language:</em> Python</p>
 <h2 id="1-problem">1 Current State</h2>
-<p>There currently are no standards regarding the reporting of astrobiological data. However, given the numerous astrobiology-focused missions that are currently active in the Solar System, and more specifically on Mars, the amount and quality of data that will return to Earth is expected to be unprecedented.</p>
-<p>NASA is currently developing the Astrobiology Habitable Environments Database (AHED). The goals of AHED are to:</p>
-<li>serve as a centralized digital library of NASA funded research relevant to the Astrobiology Program;</li>
-<li>enable proposers to fulfill mandated data management plan (DMP) archiving requirements;
-<li>serve a resource for the broader scientific community promoting the advancement of astrobiology through data sharing and standardization</li>
-<p>Following those guidelines, The Biosignature Databse is a student initiative aiming to set standards in boisignature data reporting.
+<p>While the scientific community still hasn't come up with a natural definition of Life, it is often described as a "complex" phenomenon.</p>
+<p>In fact, most, if not all, astrobiology-focused missions, like NASA's Perseverance, are hoping to detect "complex" organic molecules, which are thought to be reliable signs of life (aka biosignatures).</p>
+<p>Here again, the term "complex" is often used by astrobiologists when referring to Life and its derivatives. However, the term "complex" remains poorly constrained and the complexity of astrobiological samples is rarely quantified.</p>
+<p>Through my current research I aim to address this issue by characterizing and quantifying the complexity of rock samples of astrobiological interest termed microbialites.</p>
+<p>More specifically, I aim to quantify and correlate different "types" of complexity at various scales (i.e., nano-, micro-, and macro-).</p>
+<p>I am particularly interested in the potential correlation between the morphological, molecular, and biological complexities within my samples and aim to answer the following questoins:</p>
+<li>Are complex natural shapes necessarily accompanied by complex biological communities?</li>
+<li>Are complex assemblages of organic molecules a direct consequence of complex biological communities?</li>
 <img src="/theme-documentation-basics/sample-visualizer.gif" alt="app preview" width="800"/>
-<h2 id="2-solution-safe-seizure">2 The Biosignature Database</h2>
-<p>Built with Plotly Dash, The Biosignature Database is a web app helping the astrobiology community finding, visualizing, and reporting data on biosignatures.</p>
-<p>Users can browse the database by locating the various biosignatures detected in analogue environments on Earth using the interactive map in the center of the dashboard. By hovering above a data point, more information about the biosignature(s) is displayed, including the detection methods, type and sub-category of biosignatures (following Hays et al. 2017), and Mars counterpart environments.</p>
-<p>Users may also submit new data to the PostgreSQL data or download the dataset as a .CSV file.</p>
-<p>The web app runs locally on your machine after cloning the GitHub repository. The app is deployed on Heroku and accessible <a href="https://biosignature-database.herokuapp.com/">here</a>.</p>
+<h2 id="2-solution-safe-seizure">2 The sample visualizer</h2>
+<p>Built with Plotly Dash, the Sample Visualizer is a web app helping me, and soon the entire astrobiology community, to visualize the different types and scales of complexity within my samples.</p>
+<p>After taking 3D photogrammetric scans of my hand-sized samples, I compute various local and global fractal dimensions to quantify the morphological complexity of their shape.</p>
+<p>Based on the obtained morphological mapping, I select subsamples that I will analyze in the laboratory for their organic molecular content.</p>
+<p>The latter geochemical analyses will already give me tangible evidence of the active and inactive biological communities, which will be further investigated using DNA sequencing of the same subsamples.</p>
+<p>The web app has not been published yet and only runs of  my machine since it displays my unpublished data. I am currently working on making it usable by and accessible to the entire astrobiology community. Stay tuned!</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2021-07-06&nbsp;<a class="git-hash" href="https://github.com/dillonzq/LoveIt/commit/71b912261b5a58d212135b7db74aa838d23b80a8" target="_blank" title="commit by Julie Hartz(julie.hartz13@gmail.com) 71b912261b5a58d212135b7db74aa838d23b80a8: re-committed">
+                <span>Updated on 2023-08-25&nbsp;<a class="git-hash" href="https://github.com/dillonzq/LoveIt/commit/71b912261b5a58d212135b7db74aa838d23b80a8" target="_blank" title="commit by Julie Hartz(julie.hartz13@gmail.com) 71b912261b5a58d212135b7db74aa838d23b80a8: re-committed">
                                     <i class="fas fa-hashtag fa-fw"></i>71b9122</a></span>
             </div>
             <div class="post-info-license"></div>
